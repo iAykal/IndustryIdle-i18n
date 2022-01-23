@@ -199,18 +199,18 @@ export const TR = {
   ProductionCycleLength: "Üretim Döngüsü",
   ProductionCycleLengthDesc:
     "Saniye cinsinden ölçülen bir üretim döngüsünün süresi. Döngünün uzatılması, döngü başına girdi/çıktıyı buna göre artıracak ve böylece girdi kaynaklarını alırken önceliğini azaltacaktır.",
-  MaxInputDistance: "Max Input Distance",
+  MaxInputDistance: "Maksimum girdi mesafesi",
   MaxInputDistanceDesc:
-    "The maximum distance this building can fetch input resources from, measured in number of tiles",
-  AutoSellCapacity: "Auto Sell Capacity",
+    "Bu binanın girdi kaynaklarını alabileceği maksimum mesafe, karo sayısıyla ölçülür",
+  AutoSellCapacity: "Otomatik Satış Kapasitesi",
   AutoSellCapacityDesc:
-    "Max amount of resources auto sell can handle per second, per resource",
-  CurrentAutoSellCapacityMultiplier: "Current multiplier: x%{n}",
-  AutoSellConcurrency: "Auto Sell Concurrency",
+    "Kaynak başına saniyede otomatik satışın işleyebileceği maksimum kaynak miktarı",
+  CurrentAutoSellCapacityMultiplier: "Mevcut çarpan: x%{n}",
+  AutoSellConcurrency: "Eşzamanlı otomatik satış",
   AutoSellConcurrencyDesc:
-    "Max number of resources auto sell can handle at the same time",
+    "Otomatik satışın aynı anda işleyebileceği maksimum kaynak sayısı",
   MaxAutoSellConcurrencyReached:
-    "You have reached maximum auto sell concurrency, turn off another auto sell to enable this one",
+    "Aynı anda satış yapabileceğiniz maksimum sayıya ulaştınız, bunu etkinleştirmek için başka bir otomatik satışı kapatın",
   WallStreet: "Borsa Merkezi",
   MarketCap: "Piyasa Değeri",
   MarketCapDesc:
